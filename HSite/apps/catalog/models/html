@@ -1,0 +1,1601 @@
+
+<!--[if IE ]><![endif]-->
+<!doctype html>
+<!--[if IE 7]><html class="rwd no-js vis lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="rwd no-js vis lt-ie10 lt-ie9"><![endif]-->
+<!--[if IE 9]><html class="rwd no-js vis lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!-->
+
+<html class="rwd no-js vis">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="language" content="ru" />
+    <meta name="apple-itunes-app" content="app-id=587995732" />
+    <meta name="google-play-app" content="app-id=com.intel.ark" />
+    <!--IGHF (Performance tweaks for Mobile and Slow connections)-->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://www.intel.com" pr="1.0">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" pr="1.0">
+    <link rel="preconnect" href="https://www.intel.com" crossorigin="anonymous" pr="1.0">
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" pr="1.0">
+    <!--/IGHF-->
+    <title>Спецификации продукции Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz)</title>
+
+    <meta name="description" content="Краткое справочное руководство для Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz), включающее спецификации, функции, цены, информацию о совместимости, проектную документацию, коды заказа, коды спецификаций и т.д." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@IntelSupport" />
+        <meta name="twitter:creator" content="@IntelSupport" />
+        <meta property="og:url" content="https://ark.intel.com/ru/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <meta property="og:title" content="Спецификации продукции Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz)" />
+        <meta property="og:description" content="Краткое справочное руководство для Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz), включающее спецификации, функции, цены, информацию о совместимости, проектную документацию, коды заказа, коды спецификаций и т.д." />
+        <meta property="og:image" content="http://ark.intel.com/inc/images/fusionmobile/intel-logo-blue.png" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Intel® ARK (Product Specs)" />
+        <meta name="twitter:app:name:iphone" content="Intel® ARK (Product Specs)" />
+        <meta name="twitter:app:name:ipad" content="Intel® ARK (Product Specs)" />
+        <meta name="twitter:app:name:googleplay" content="Intel® ARK (Product Specs)" />
+        <meta name="twitter:app:id:iphone" content="id587995732" />
+        <meta name="twitter:app:id:ipad" content="id587995732" />
+        <meta name="twitter:app:id:googleplay" content="com.intel.ark" />
+    
+    
+    
+    <link rel="canonical" href="https://ark.intel.com/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="es" href="https://ark.intel.com/es/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="ja" href="https://ark.intel.com/ja/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="ko" href="https://ark.intel.com/ko/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="pt-br" href="https://ark.intel.com/pt-br/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="ru" href="https://ark.intel.com/ru/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="zh-cn" href="https://ark.intel.com/zh-cn/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="zh-tw" href="https://ark.intel.com/zh-tw/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="de" href="https://ark.intel.com/de/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="fr" href="https://ark.intel.com/fr/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="pl" href="https://ark.intel.com/pl/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="tr" href="https://ark.intel.com/tr/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="it" href="https://ark.intel.com/it/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="id" href="https://ark.intel.com/id/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="th" href="https://ark.intel.com/th/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+        <link rel="alternate" hreflang="vi" href="https://ark.intel.com/vi/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+
+    <link rel="search" type="application/opensearchdescription+xml" title="ARK Search" href="/search/opensearch" />
+    <link rel="shortcut icon" href="/sites/sitewide/pix/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png" />
+
+    <style>
+        @-ms-viewport {
+            width: device-width;
+        }
+    </style>
+    <script>
+        (function () {
+            if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode("@-ms-viewport{width:auto!important}")
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
+    <link type="text/css" rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/fonts.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="/inc/styles/jquery-ui-1.10.1.custom.min.css" />
+    <link href="/inc/styles/jquery-ui-1.10.1.custom.overrides.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/inc/styles/ark-includes.min.css?ver=1.1.6659.18847" />
+                <link href="/inc/styles/cpc-styles.ru.overrides.css?v=1.1.6659.18847" rel="stylesheet" type="text/css" />
+    <!--[if le IE 9]>
+    <script src="/inc/javascript/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="/inc/javascript/es5-shim.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if !IE]> -->
+    <script src="/inc/javascript/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <!-- <![endif]-->
+    <script src="/inc/javascript/bootstrap.min.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/javascript/jquery-ui.min.js" type="text/javascript"></script> 
+     
+
+    <script type="text/javascript">
+        (function(ARK) {
+            ARK.ArkHelpers = {
+                site: "ARK",
+                errorMsg: "Ошибка.",
+                changeSuccessful: "",
+                appPath: "",
+                appPathLocalized: "/ru",
+                samplesCart: "Мои образцы"
+            };
+        }(typeof ARK === "object" && ARK || this));
+
+        function checkImgSize(imgElement) {
+            $(imgElement).parent('figure').addClass('badge-loaded');
+        }
+    </script>
+
+    <style>
+        .search-examples {
+            list-style-type: none;
+        }
+    </style>
+
+</head>
+<body class="support-wrapper ark rwd ru">
+    <!--IGHF Loader-->
+    <!--[if le IE 9]><script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC DEFER></script><![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC></script>
+    <!--<![endif]-->
+    <script>INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 09/11/2017 08:00:00",textDirection:"--",culture:"--",OutputId:"--"};</script>
+    <!--/IGHF Loader-->
+    <script type="text/javascript">
+        INTELNAV.dashboard = {
+            languageSelector: {
+                settings: {
+                    behavior: "mineOnly",
+                    method: "path",
+                    regex: /^\/(ru(\/|$))?/i //any of / or /xx or /xx-xx, starting our url path, with optional trailing slash
+                    },
+                geos: [
+                    { geo: "en_us", path: "/" },
+{ geo: "zh_cn", path: "/zh-cn/" },
+{ geo: "id_id", path: "/id/" },
+{ geo: "ja_jp", path: "/ja/" },
+{ geo: "ko_kr", path: "/ko/" },
+{ geo: "zh_tw", path: "/zh-tw/" },
+{ geo: "th_th", path: "/th/" },
+{ geo: "vi_vn", path: "/vi/" },
+{ geo: "fr_fr", path: "/fr/" },
+{ geo: "de_de", path: "/de/" },
+{ geo: "it_it", path: "/it/" },
+{ geo: "pl_pl", path: "/pl/" },
+{ geo: "ru_ru", path: "/ru/" },
+{ geo: "es_es", path: "/es/" },
+{ geo: "de_ch", path: "/de/" },
+{ geo: "tr_tr", path: "/tr/" },
+{ geo: "es_ar", path: "/es/" },
+{ geo: "es_bo", path: "/es/" },
+{ geo: "pt_br", path: "/pt-br/" },
+{ geo: "es_cl", path: "/es/" },
+{ geo: "es_co", path: "/es/" },
+{ geo: "es_cr", path: "/es/" },
+{ geo: "es_xl", path: "/es/" },
+{ geo: "es_mx", path: "/es/" },
+{ geo: "es_pe", path: "/es/" },
+{ geo: "es_uy", path: "/es/" },
+{ geo: "es_ve", path: "/es/" },
+{ geo: "fr_ca", path: "/fr/" },
+{ geo: "en_xa", path: "/" },
+{ geo: "en_au", path: "/" },
+{ geo: "en_hk", path: "/" },
+{ geo: "en_in", path: "/" },
+{ geo: "en_my", path: "/" },
+{ geo: "en_nz", path: "/" },
+{ geo: "en_uk", path: "/" }
+                ]
+            }
+        };
+
+    </script>
+<!--IGHF Header-->
+<!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 09/11/2017 08:00:00",textDirection:"ltr",culture:"ru_RU",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a class="gaat40-logo" title="Intel" href="https://www.intel.ru/content/www/ru/ru/homepage.html"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Поиск</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Поиск" /></fieldset></form></div></noscript>
+<!--/IGHF header-->
+    <div class="blade-core-content">
+        <div class="blade-support breadcrumb no-print">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <div class="breadcrumb-support">
+                            <a href="https://www.intel.ru/content/www/ru/ru/support.html" class="intel-cta">Служба поддержки — Главная страница</a> 
+                            
+    <a href="/ru" class="intel-cta">Спецификации продукции</a> 
+        <a class="hidden-crumb-xs intel-cta" href="/ru#@Processors">Процессоры</a> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 compare-tab-container ">
+                            <div class="compare-tab">
+                                <a class="clear-link">Очистить очередь</a>
+                                <a class="compare-tab-contents compare-now" href="/compare">
+                                    Сравнить <span class="compare-count">0</span>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 search-tab-container">
+                            <form lpformnum="1" action="/ru/search" method="get">
+                                <div class="search-specs input-group">
+                                    <input type="search" id="ark-searchbox" name="q" class="support-searchbox" placeholder="Поиск по характеристикам" autocomplete="off" />
+                                    <button id="" class="btn-clear hidden"></button>
+                                    <button id="" class="btn-clear btn-search"></button>
+                                </div>
+                                <div class="search-preview">
+                                    <ul class="search-examples">
+                                        <li class="search-example"><h4>Примеры поиска</h4></li>
+                                        <li class="search-example"><p>Вы можете выполнить поиск в нашем каталоге процессоров, наборов микросхем, комплектов, твердотельных накопителей, серверной продукции, используя нескольких способов.</p></li>
+                                        <li class="search-example"><p><span class="spec">Торговая марка:</span> <span class="example-value">Core i7</span></p></li>
+                                        <li class="search-example"><p><span class="spec">Номер продукта:</span> <span class="example-value">i7-7500U</span></p></li>
+                                        <li class="search-example"><p><span class="spec">Код заказа:</span> <span class="example-value">SC3120AKIT</span></p></li>
+                                        <li class="search-example"><p><span class="spec">Код SPEC:</span> <span class="example-value">SR2PA</span></p></li>
+                                        <li class="search-example"><p><span class="spec">Кодовое название:</span> <span class="example-value">Kaby Lake</span></p></li>
+                                    </ul>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+
+
+
+
+<div class="support product-family-title processors">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-9 icon-header">
+                <figure>
+                        <img alt="Intel&#174; Core™ Processors" src="https://www.intel.com/content/dam/www/global/ark/badges/123886_128.gif/jcr:content/renditions/_64.gif" onerror="this.style.display='none';" onload="checkImgSize(this);">
+                </figure>
+                <div class="product-family-title-text">
+                    <h1 class="h1">Процессор Intel® Core™ i9-7980XE Extreme Edition</h1>
+                    <div class="blade-product-list-container">24,75 МБ кэш-памяти, до 4,20 ГГц</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 compare-with-button no-print">
+                <form lpformnum="1">
+                    <label class="has-switch-input compare-checkbox">
+                        <input type="checkbox" name="addToCompare" class="compare-toggle" data-product-id="126699">
+                        <span class="check-box"></span>
+                        <span class="switch-input-content">Добавить к сравнению</span>
+                    </label>
+                </form>
+                <a class="btn btn-shop-for-product" role="button" style="display: none;" href="#">Купить этот продукт</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row flex-specs">
+        <nav class="col-sm-3 specs-nav-container col-xl-2 col-xl-offset-1">
+            <ol id="nav-shim"></ol>
+            <ul class="nav specs-nav scrollspy hidden-xs">
+                    <li class="specs-nav-section always-active" role="presentation">
+                        <a data-toggle="tab" href="#tab-blade-1-0" class="spec-section-title">Спецификации</a>
+                            <ul class="nav">
+                                    <li><a href="#tab-blade-1-0-0">Основные функции</a></li>
+                                    <li><a href="#tab-blade-1-0-1">Производительность</a></li>
+                                    <li><a href="#tab-blade-1-0-2">Дополнительная информация</a></li>
+                                    <li><a href="#tab-blade-1-0-3">Спецификации модулей памяти</a></li>
+                                    <li><a href="#tab-blade-1-0-4">Варианты расширения</a></li>
+                                    <li><a href="#tab-blade-1-0-5">Спецификации корпуса</a></li>
+                                    <li><a href="#tab-blade-1-0-6">Усовершенствованные технологии</a></li>
+                                    <li><a href="#tab-blade-1-0-7">Безопасность и надежность</a></li>
+                            </ul>
+                    </li>
+
+
+                    <li class="specs-nav-section" role="presentation">
+                        <a data-toggle="tab" href="#tab-blade-1-4" class="spec-section-title">Заказ и соответствие требованиям</a>
+                        <ul class="nav">
+                                <li><a href="#tab-blade-1-4-0">Информация о заказах и спецификациях</a></li>
+                            <text></text>
+                            <li><a href="#tab-blade-1-4-2">Сведения о коммерческом соответствии</a></li>
+                                <li><a href="#tab-blade-1-4-3">Информация PCN/MDDS</a></li>
+                                                        </ul>
+                    </li>
+
+                
+                                    <li class="specs-nav-section" role="presentation">
+                        <a data-toggle="tab" href="#tab-blade-1-1" class="spec-section-title">Совместимая продукция</a>
+                        <ul class="nav">
+                                <li><a href="#tab-blade-1-1-0">Наборы микросхем для персональных устройств</a></li>
+                        </ul>
+                    </li>
+                <li class="specs-nav-section" role="presentation" style="display: none;" id="tab-side-1-7"><a data-toggle="tab" href="#tab-blade-1-7" class="spec-section-title">Файлы для загрузки и ПО</a></li>
+            </ul>
+        </nav>
+        <section class="col-sm-9 specs-content-container col-xl-8">
+            <h2 class="visible-xs specs-accordion-title">Спецификации</h2>
+            <div class="specs-section active" id="tab-blade-1-0">
+                    <section class="blade specs-blade" id="tab-blade-1-0-0">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                    <a class="export-specs pull-right-sm user-exit" role="button" href="/ru/compare/126699?e=t" data-user-exit="SingleExport">Экспорт спецификаций</a>
+                                <h2 class="h2">Основные функции</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                        <li class="ParentGroup">
+                                            <span class="label">
+                                                Коллекция продукции
+                                            </span>
+                                            <span class="value">
+                                                    <a href="/ru/products/series/123588/Intel-Core-X-series-Processors">Процессоры Intel® Core™ серии X</a>
+                                            </span>
+                                        </li>
+                                        <li class="CodeNameText">
+                                            <span class="label">
+                                                Кодовое название
+                                            </span>
+                                            <span class="value">
+                                                <a href="/ru/products/codename/37572/Skylake">Продукция с прежним кодовым названием Skylake</a>
+                                            </span>
+                                        </li>
+                                                                    <li class="MarketSegment">
+                                        <span class="label">
+                                                <span>Вертикальный сегмент</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Desktop</span>
+                                        </span>
+                                    </li>
+                                    <li class="ProcessorNumber">
+                                        <span class="label">
+                                                <span>Процессор Номер</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>i9-7980XE</span>
+                                        </span>
+                                    </li>
+                                    <li class="StatusCodeText">
+                                        <span class="label">
+                                                <span>Состояние</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Launched</span>
+                                        </span>
+                                    </li>
+                                    <li class="BornOnDate">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-BornOnDate"><span>Дата выпуска</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Q3'17</span>
+                                        </span>
+                                    </li>
+                                    <li class="ItemsIncluded">
+                                        <span class="label">
+                                                <span>Входящие в комплектацию элементы</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Please note: The boxed product does not include a fan or heat sink</span>
+                                        </span>
+                                    </li>
+                                    <li class="Price1KUnits">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-Price1KUnits"><span>Рекомендуемая цена для покупателей</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>$1999.00</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-1">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Производительность</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="CoreCount">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-CoreCount"><span>Количество ядер</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>18</span>
+                                        </span>
+                                    </li>
+                                    <li class="ThreadCount">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ThreadCount"><span>Количество потоков</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>36</span>
+                                        </span>
+                                    </li>
+                                    <li class="ClockSpeed">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ClockSpeed"><span>Базовая тактовая частота процессора</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>2,60 GHz</span>
+                                        </span>
+                                    </li>
+                                    <li class="ClockSpeedMax">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ClockSpeedMax"><span>Максимальная тактовая частота с технологией Turbo Boost</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>4,20 GHz</span>
+                                        </span>
+                                    </li>
+                                    <li class="Cache">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-Cache"><span>Кэш-память</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>24,75 MB</span>
+                                        </span>
+                                    </li>
+                                    <li class="Bus">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-Bus"><span>Частота системной шины</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>8 GT/s DMI3</span>
+                                        </span>
+                                    </li>
+                                    <li class="BusNumPorts">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-BusNumPorts"><span>Кол-во соединений QPI</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>0</span>
+                                        </span>
+                                    </li>
+                                    <li class="TurboBoostMaxTechMaxFreq">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-TurboBoostMaxTechMaxFreq"><span>Частота технологии Intel® Turbo Boost Max 3.0 <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>4,40 GHz</span>
+                                        </span>
+                                    </li>
+                                    <li class="MaxTDP">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-MaxTDP"><span>Расчетная мощность</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>165 W</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-2">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Дополнительная информация</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="Embedded">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-Embedded"><span>Доступные варианты для встраиваемых систем</span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;Embedded=false"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Нет</span>
+                                        </span>
+                                    </li>
+                                    <li class="ProductBriefUrl">
+                                        <span class="label">
+                                                <span>Краткое описание продукции</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <a href="https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/core-x-series-processor-family-product-brief.pdf">Просмотреть сейчас</a>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-3">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Спецификации модулей памяти</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="MaxMem">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-MaxMem"><span>Макс. объем памяти (зависит от типа памяти)</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>128 GB</span>
+                                        </span>
+                                    </li>
+                                    <li class="MemoryTypes">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-MemoryTypes"><span>Типы памяти</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>DDR4-2666</span>
+                                        </span>
+                                    </li>
+                                    <li class="NumMemoryChannels">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-NumMemoryChannels"><span>Макс. число каналов памяти</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>4</span>
+                                        </span>
+                                    </li>
+                                    <li class="ECCMemory">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ECCMemory"><span>Поддержка памяти ECC <small><sup>‡</sup></small></span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;ECCMemory=false"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Нет</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-4">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Варианты расширения</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="ScalableSockets">
+                                        <span class="label">
+                                                <span>Масштабируемость</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>1S Only</span>
+                                        </span>
+                                    </li>
+                                    <li class="PCIExpressRevision">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-PCIExpressRevision"><span>Редакция PCI Express</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>3.0</span>
+                                        </span>
+                                    </li>
+                                    <li class="NumPCIExpressPorts">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-NumPCIExpressPorts"><span>Макс. кол-во каналов PCI Express</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>44</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-5">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Спецификации корпуса</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="SocketsSupported">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-SocketsSupported"><span>Поддерживаемые разъемы</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>FCLGA2066</span>
+                                        </span>
+                                    </li>
+                                    <li class="MaxCPUs">
+                                        <span class="label">
+                                                <span>Макс. конфигурация процессора</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>1</span>
+                                        </span>
+                                    </li>
+                                    <li class="ThermalSolutionSpecification">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ThermalSolutionSpecification"><span>Спецификации системы охлаждения</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>PCG 2017X</span>
+                                        </span>
+                                    </li>
+                                    <li class="ThermalJunctionRateCode">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ThermalJunctionRateCode"><span>T<sub>JUNCTION</sub></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>94°C</span>
+                                        </span>
+                                    </li>
+                                    <li class="IsHalogenFree">
+                                        <span class="label">
+                                                <span>Доступны опции с низким уровнем содержания галогенов</span>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>См. декларацию MDDS</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-6">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Усовершенствованные технологии</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="OptaneMemorySupport">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-OptaneMemorySupport"><span>Поддержка памяти Intel® Optane™ <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="TurboBoostMaxTechVersion">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-TurboBoostMaxTechVersion"><span>Технология Intel® Turbo Boost Max 3.0 <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="TBTVersion">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-TBTVersion"><span>Технология Intel® Turbo Boost <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>2.0</span>
+                                        </span>
+                                    </li>
+                                    <li class="HyperThreading">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-HyperThreading"><span>Технология Intel® Hyper-Threading <small><sup>‡</sup></small></span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;HyperThreading=true"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="VTX">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-VTX"><span>Технология виртуализации Intel® (VT-x) <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="VTD">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-VTD"><span>Технология виртуализации Intel® для направленного ввода/вывода (VT-d) <small><sup>‡</sup></small></span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;VTD=true"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="EM64">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-EM64"><span>Архитектура Intel® 64 <small><sup>‡</sup></small></span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;EM64=true"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="InstructionSetExtensions">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-InstructionSetExtensions"><span>Расширения набора команд</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2, Intel® AVX-512</span>
+                                        </span>
+                                    </li>
+                                    <li class="AVX512FusedMultiplyAddUnits">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-AVX512FusedMultiplyAddUnits"><span>Количество модулей AVX-512 FMA</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>2</span>
+                                        </span>
+                                    </li>
+                                    <li class="SpeedstepTechnology">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-SpeedstepTechnology"><span>Усовершенствованная технология Intel SpeedStep®</span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="blade specs-blade" id="tab-blade-1-0-7">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Безопасность и надежность</h2>
+                            </div>
+                            <ul class="specs-list">
+                                
+                                                                    <li class="AESTech">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-AESTech"><span>Новые команды Intel® AES</span></a>
+                                                                                            <a class="search-link" href="/ru/Search/FeatureFilter?productType=processors&amp;AESTech=true"></a>
+                                        </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                                    <li class="ExecuteDisable">
+                                        <span class="label">
+                                                <a class="view-modal info-modal" data-modal="tt-ExecuteDisable"><span>Функция Бит отмены выполнения <small><sup>‡</sup></small></span></a>
+                                                                                    </span>
+                                        <span class="value">
+                                                <span>Да</span>
+                                        </span>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+            </div>
+
+                <h2 class="visible-xs specs-accordion-title">Совместимая продукция</h2>
+                <div class="specs-section" id="tab-blade-1-1">
+                    <section class="blade">
+                            <div class="blade-inside">
+                                <div class="row find-processors-row">
+                                    
+                                    <div class="col-xs-12 col-md-8">
+                                        <h2 class="h2 normal-margin">Поиск совместимых системных плат для настольных ПК</h2>
+                                        <p>Найдите совместимые с Intel&#174; Core™ i9-7980XE Extreme Edition Processor системные платы с помощью средства Intel&#174; Desktop Compatibility Tool</p>
+                                    </div>
+                                    <div class="col-xs-12 col-md-4">
+                                        <a class="btn btn-primary btn-no-shadow" href="http://processormatch.intel.com/MotherBoards/CompatibleBoards?componentName=i9-7980XE">Поиск совместимых плат</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="blade-inside allow-full-bleed ark-table" id="tab-blade-1-1-0">
+                                <div class="subhead">
+                                    <h2 class="h2">Наборы микросхем для персональных устройств</h2>
+                                </div>
+                                <div class="row full-bleed ark-table-row">
+                                    <div class="col-xs-12 table-responsive">
+                                        <form lpformnum="2">
+                                            <div class="tablesaw-bar mode-stack"></div>
+                                            
+<form>
+    <table class="table support-table table-sorter collapsible">
+        <thead>
+            <tr>
+                <th class="ark-table-sortable-col ark-product-name" data-sort-field="productName">Наименование продукта</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible1" data-col="StatusCodeText">Состояние</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible2" data-col="Bus">Частота системной шины</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible3" data-col="PCIExpressRevision">Редакция PCI Express</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible4" data-col="USBRevision">Версия USB</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible5" data-col="Embedded">Доступные варианты для встраиваемых систем</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible6" data-col="MaxTDP">Расчетная мощность</th>
+                        <th class="ark-table-sortable-col collapsible-col collapsible7" data-col="Price1KUnits">Рекомендуемая цена для покупателей</th>
+                <th class="ark-table-col ark-compare no-print">Сравнить<br /><span><a class="all">Все</a> | <a class="none disabled">Нет</a></span></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr class="blank-table-row seg-desktop " data-codename="Kaby Lake" data-filter="Desktop" data-product-id="122941">
+                    <td class="ark-product-name" data-value="1"><a href="/ru/products/122941/Intel-X299-Chipset">Intel® X299 Chipset</a></td>
+                            <td class="collapsible-col collapsible1" data-value="4">Launched</td>
+                            <td class="collapsible-col collapsible2" data-value="8">8 GT/s DMI3</td>
+                            <td class="collapsible-col collapsible3" data-value="3.0">3.0</td>
+                            <td class="collapsible-col collapsible4" data-value="3.0/2.0">3.0/2.0</td>
+                            <td class="collapsible-col collapsible5" data-value="False">Нет</td>
+                            <td class="collapsible-col collapsible6" data-value="6">6 W</td>
+                            <td class="collapsible-col collapsible7" data-value="$74.00">$74.00</td>
+                    <td class="ark-compare compare-checkbox no-print">
+                        <label class="has-switch-input compare-checkbox">
+                            <input type="checkbox" class="compare-toggle" data-product-id="122941">
+                            <span class="check-box"></span>
+                        </label>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+</form>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+
+
+
+                <h2 class="visible-xs specs-accordion-title">Заказ и соответствие требованиям</h2>
+                <div class="specs-section" id="tab-blade-1-4">
+                        <section class="blade specs-blade" id="tab-blade-1-4-0">
+                            <div class="blade-inside">
+                                <div class="subhead">
+                                    <h2 class="h2">Информация о заказах и спецификациях</h2>
+                                </div>
+                            </div>
+                        </section>
+                            
+    <section class="blade specs-blade">
+        <div class="blade-inside">
+            <div class="subhead">
+                <h2 class="h2">Boxed Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz) FC-LGA14B</h2>
+            </div>
+            <ul class="specs-list">
+                                    <li>
+                        <span class="label">Код Spec</span>
+                        <span class="value">SR3RS </span>
+                    </li>
+                                    <li>
+                        <span class="label">Код заказа</span>
+                        <span class="value">BX80673I97980X</span>
+                    </li>
+                                    <li>
+                        <span class="label">Шаг</span>
+                        <span class="value">M0         </span>
+                    </li>
+                                    <li>
+                        <span class="label">RCP</span>
+                        <span class="value">$1999,00</span>
+                    </li>
+                            </ul>
+        </div>
+    </section>
+                            
+                            
+    <section class="blade specs-blade">
+        <div class="blade-inside">
+            <div class="subhead">
+                <h2 class="h2">Boxed Intel&#174; Core™ i9-7980XE Extreme Edition Processor (24.75M Cache, up to 4.20 GHz) FC-LGA14B, for China</h2>
+            </div>
+            <ul class="specs-list">
+                                    <li>
+                        <span class="label">Код Spec</span>
+                        <span class="value">SR3RS </span>
+                    </li>
+                                    <li>
+                        <span class="label">Код заказа</span>
+                        <span class="value">BXC80673I97980X</span>
+                    </li>
+                                    <li>
+                        <span class="label">Шаг</span>
+                        <span class="value">M0         </span>
+                    </li>
+                                            </ul>
+        </div>
+    </section>
+                            
+
+                    <section class="blade specs-blade" id="tab-blade-1-4-2">
+                        <div class="blade-inside">
+                            <div class="subhead">
+                                <h2 class="h2">Сведения о коммерческом соответствии</h2>
+                            </div>
+                            <ul class="specs-list">
+                                    <li>
+                                        <span class="label">ECCN</span><span class="value">5A992C                                  </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="label">CCATS</span><span class="value">G077159   </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="label">US HTS</span><span class="value">8542310001          </span>
+                                    </li>
+                            </ul>
+                        </div>
+                    </section>
+                        <section class="blade specs-blade" id="tab-blade-1-4-3">
+                            <div class="blade-inside">
+                                <div class="subhead">
+                                    <h2 class="h2">Информация PCN/MDDS</h2>
+                                </div>
+                            </div>
+                        </section>
+                            <section class="blade specs-blade">
+                                <div class="blade-inside">
+                                    <div class="subhead">
+                                        <h2 class="h2">
+                                            SR3RS 
+                                        </h2>
+                                    </div>
+                                    <ul class="specs-list">
+                                        <li>
+                                            <span class="label">962508</span><span class="value">
+                                                <a href="https://qdms.intel.com/Portal/SearchPCNDataBase.aspx?mm=962508">PCN</a>
+                                                                                                 | 
+                                                                                                <a href="https://qdms.intel.com/MDDS/MDDSView.aspx?mm=962508">MDDS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="label">962509</span><span class="value">
+                                                <a href="https://qdms.intel.com/Portal/SearchPCNDataBase.aspx?mm=962509">PCN</a>
+                                                                                                 | 
+                                                                                                <a href="https://qdms.intel.com/MDDS/MDDSView.aspx?mm=962509">MDDS</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                                    </div>
+
+
+
+            <h2 class="visible-xs specs-accordion-title" id="tab-label-1-7" style="display:none;">Файлы для загрузки и ПО</h2>
+            <div class="specs-section" id="tab-blade-1-7" style="display:none;">
+                <section class="blade">
+                    <div class="blade-inside allow-full-bleed ark-table" id="tab-blade-1-7-0">
+                        <div class="row full-bleed ark-table-row">
+                            <div class="col-xs-12 table-responsive">
+                                <form lpformnum="2">
+                                    <div class="tablesaw-bar mode-stack"></div>
+                                    <table class="table support-table collapsible" id="drivers-list">
+                                        <thead>
+                                            <tr>
+                                                <th class="header description">Описание</th>
+                                                <th class="header collapsible-col collapsible3 type">Тип</th> 
+                                                <th class="header collapsible-col collapsible2 os">ОС</th> 
+                                                <th class="header collapsible-col collapsible1 version">Версия</th> 
+                                                <th class="header collapsible-col collapsible4 date">Дата</th> 
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container support-modal-container no-print">
+        <div class="row">
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-BornOnDate">
+                    <div class="close"></div>
+                    <h2>Дата выпуска</h2>
+
+                    <p class="intro">Дата выпуска продукта.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-Price1KUnits">
+                    <div class="close"></div>
+                    <h2>Рекомендуемая цена для покупателей</h2>
+
+                    <p class="intro">Рекомендуемая розничная цена (РРЦ) представляет собой рекомендуемую цену только для продуктов Intel. Цены указаны для прямых клиентов Intel, обычно для заказов партий из 1000 шт. и могут быть изменены без уведомления. Цены могут отличаться для других типов упаковки и объемов поставок. Если продается в оптовой партии, цена относится к единице продукции. Указание рекомендуемых розничных цен не является официальной ценовой офертой Intel.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-CoreCount">
+                    <div class="close"></div>
+                    <h2>Количество ядер</h2>
+
+                    <p class="intro">Количество ядер - это термин аппаратного обеспечения, описывающий число независимых центральных модулей обработки в одном вычислительном компоненте (кристалл). </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ThreadCount">
+                    <div class="close"></div>
+                    <h2>Количество потоков</h2>
+
+                    <p class="intro">Поток или поток выполнения - это термин программного обеспечения, обозначающий базовую упорядоченную последовательность инструкций, которые могут быть переданы или обработаны одним ядром ЦП. </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ClockSpeed">
+                    <div class="close"></div>
+                    <h2>Базовая тактовая частота процессора</h2>
+
+                    <p class="intro">Базовая частота процессора — это скорость открытия/закрытия транзисторов процессора. Базовая частота процессора является рабочей точкой, где задается расчетная мощность (TDP). Частота измеряется в гигагерцах (ГГц) или миллиардах вычислительных циклов в секунду.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ClockSpeedMax">
+                    <div class="close"></div>
+                    <h2>Максимальная тактовая частота с технологией Turbo Boost</h2>
+
+                    <p class="intro">Максимальная тактовая частота с технологией Turbo Boost — это максимальная тактовая частота одноядерного процессора, которую можно достичь с помощью технологии Intel® Turbo Boost. Частота измеряется в гигагерцах (ГГц) или миллиардах вычислительных циклов в секунду.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-Cache">
+                    <div class="close"></div>
+                    <h2>Кэш-память</h2>
+
+                    <p class="intro">Кэш-память процессора - это область быстродействующей памяти, расположенная в процессоре. Интеллектуальная кэш-память Intel® Smart Cache указывает на архитектуру, которая позволяет всем ядрам совместно динамически использовать доступ к кэшу последнего уровня.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-Bus">
+                    <div class="close"></div>
+                    <h2>Частота системной шины</h2>
+
+                    <p class="intro">Шина — это подсистема, передающая данные между компонентами компьютера или между компьютерами. В качестве примера можно назвать системную шину (FSB), по которой происходит обмен данными между процессором и блоком контроллеров памяти; интерфейс DMI, который представляет собой соединение "точка-точка" между встроенным контроллером памяти Intel и блоком контроллеров ввода/вывода Intel на системной плате; и интерфейс Quick Path Interconnect (QPI), соединяющий процессор и интегрированный контроллер памяти.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-BusNumPorts">
+                    <div class="close"></div>
+                    <h2>Кол-во соединений QPI</h2>
+
+                    <p class="intro">QPI (Quick Path Interconnect) обеспечивающий соединяет высокоскоростное соединение по принципу точка-точка при помощи шины между процессором и набором микросхем.  </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-TurboBoostMaxTechMaxFreq">
+                    <div class="close"></div>
+                    <h2>Частота технологии Intel® Turbo Boost Max 3.0 <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Технология Intel® Turbo Boost Max 3.0 определяет лучшую производительность ядер в процессоре и обеспечивает увеличенную производительность в ядрах с помощью возрастающей по мере необходимости частоты, пользуясь преимуществом резерва мощности и температуры. Частота технологии Intel® Turbo Boost Max 3.0 - это тактовая частота процессора при работе в этом режиме.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-MaxTDP">
+                    <div class="close"></div>
+                    <h2>Расчетная мощность</h2>
+
+                    <p class="intro">Расчетная тепловая мощность (TDP) указывает на среднее значение производительности в ваттах, когда мощность процессора рассеивается (при работе с базовой частотой, когда все ядра задействованы) в условиях сложной нагрузки, определенной Intel. Ознакомьтесь с требованиями к системам терморегуляции, представленными в техническом описании.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-Embedded">
+                    <div class="close"></div>
+                    <h2>Доступные варианты для встраиваемых систем</h2>
+
+                    <p class="intro">Доступные варианты для встраиваемых систем указывают на продукты, обеспечивающие продленную возможность приобретения для интеллектуальных систем и встроенных решений. Спецификация продукции и условия использования представлены в отчете Production Release Qualification (PRQ). Обратитесь к представителю Intel для получения подробной информации.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&Embedded=true">Найти продукты с Доступные варианты для встраиваемых систем</a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-MaxMem">
+                    <div class="close"></div>
+                    <h2>Макс. объем памяти (зависит от типа памяти)</h2>
+
+                    <p class="intro">Макс. объем памяти означает максимальный объем памяти, поддерживаемый процессором.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-MemoryTypes">
+                    <div class="close"></div>
+                    <h2>Типы памяти</h2>
+
+                    <p class="intro">Процессоры Intel® поддерживают четыре разных типа памяти: одноканальная, двухканальная, трехканальная и Flex.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-NumMemoryChannels">
+                    <div class="close"></div>
+                    <h2>Макс. число каналов памяти</h2>
+
+                    <p class="intro">От количества каналов памяти зависит пропускная способность приложений.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ECCMemory">
+                    <div class="close"></div>
+                    <h2>Поддержка памяти ECC <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Поддержка памяти ECC указывает на поддержку процессором памяти с кодом коррекции ошибок. Память ECC представляет собой такой типа памяти, который поддерживает выявление и исправление распространенных типов внутренних повреждений памяти. Обратите внимание, что поддержка памяти ECC требует поддержки и процессора, и набора микросхем.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&ECCMemory=true">Найти продукты с Поддержка памяти ECC <small><sup>‡</sup></small></a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-PCIExpressRevision">
+                    <div class="close"></div>
+                    <h2>Редакция PCI Express</h2>
+
+                    <p class="intro">Редакция PCI Express - это версия, поддерживаемая процессором. PCIe (Peripheral Component Interconnect Express) представляет собой стандарт высокоскоростной последовательной шины расширения для компьютеров для подключения к нему аппаратных устройств. Различные версии PCI Express поддерживают различные скорости передачи данных.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-NumPCIExpressPorts">
+                    <div class="close"></div>
+                    <h2>Макс. кол-во каналов PCI Express</h2>
+
+                    <p class="intro">Канал PCI Express (PCIe) состоит из двух пар каналов сигнализации, один из которых предназначен для приема, а другой - для передачи данных, и этот канал является базовым модулем шины PCIe. Число каналов PCI Express представляет собой общее число каналов, поддерживаемых процессором.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-SocketsSupported">
+                    <div class="close"></div>
+                    <h2>Поддерживаемые разъемы</h2>
+
+                    <p class="intro">Разъемом называется компонент, которые обеспечивает механические и электрические соединения между процессором и материнской платой.  </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ThermalSolutionSpecification">
+                    <div class="close"></div>
+                    <h2>Спецификации системы охлаждения</h2>
+
+                    <p class="intro">Эталонные спецификации систем охлаждения Intel для надлежащей эксплуатации данной товарной позиции.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ThermalJunctionRateCode">
+                    <div class="close"></div>
+                    <h2>T<sub>JUNCTION</sub></h2>
+
+                    <p class="intro">Температура на фактическом пятне контакта - это максимальная температура, допустимая на кристалле процессора. </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-OptaneMemorySupport">
+                    <div class="close"></div>
+                    <h2>Поддержка памяти Intel® Optane™ <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Память Intel® Optane™ представляет собой новый революционный класс энергонезависимой памяти, работающей между системной памятью и устройствами хранения данных для повышения системной производительности и оперативности. В сочетании с драйвером технологии хранения Intel® Rapid она эффективно управляет несколькими уровнями систем хранения данных, предоставляя один виртуальный диск для нужд ОС, обеспечивая тем самым хранение наиболее часто используемой информации на самом быстродействующем уровне хранения данных. Для работы памяти Intel® Optane™ необходимы специальная аппаратная и программная конфигурации. Чтобы узнать о требованиях к конфигурации, посетите сайт <a href="http://www.intel.ru/content/www/ru/ru/architecture-and-technology/optane-memory.html">www.intel.com/OptaneMemory</a>.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-TurboBoostMaxTechVersion">
+                    <div class="close"></div>
+                    <h2>Технология Intel® Turbo Boost Max 3.0 <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Технология Intel® Turbo Boost Max 3.0 определяет лучшую производительность ядер в процессоре и обеспечивает увеличенную производительность в ядрах с помощью возрастающей по мере необходимости частоты, пользуясь преимуществом резерва мощности и температуры.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-TBTVersion">
+                    <div class="close"></div>
+                    <h2>Технология Intel® Turbo Boost <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Технология Intel® Turbo Boost динамически увеличивает частоту процессора до необходимого уровня, используя разницу между номинальным и максимальным значениями параметров температуры и энергопотребления, что позволяет увеличить эффективность энергопотребления или при необходимости «разогнать» процессор. </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-HyperThreading">
+                    <div class="close"></div>
+                    <h2>Технология Intel® Hyper-Threading <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Intel® Hyper-Threading Technology (Intel® HT Technology) обеспечивает два потока обработки для каждого физического ядра. Многопоточные приложения могут выполнять больше задач параллельно, что значительно ускоряет выполнение работы.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&HyperThreading=true">Найти продукты с Технология Intel® Hyper-Threading <small><sup>‡</sup></small></a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-VTX">
+                    <div class="close"></div>
+                    <h2>Технология виртуализации Intel® (VT-x) <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Технология Intel® Virtualization для направленного ввода/вывода (VT-x) позволяет одной аппаратной платформе функционировать в качестве нескольких «виртуальных» платформ. Технология улучшает возможности управления, снижая время простоев и поддерживая продуктивность работы за счет выделения отдельных разделов для вычислительных операций.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-VTD">
+                    <div class="close"></div>
+                    <h2>Технология виртуализации Intel® для направленного ввода/вывода (VT-d) <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Технология Intel® Virtualization Technology для направленного ввода/вывода дополняет поддержку виртуализации в процессорах на базе архитектуры IA-32 (VT-x) и в процессорах Itanium® (VT-i) функциями виртуализации устройств ввода/вывода. Технология Intel® Virtualization для направленного ввода/вывода помогает пользователям увеличить безопасность и надежность систем, а также повысить производительность устройств ввода/вывода в виртуальных средах.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&VTD=true">Найти продукты с Технология виртуализации Intel® для направленного ввода/вывода (VT-d) <small><sup>‡</sup></small></a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-EM64">
+                    <div class="close"></div>
+                    <h2>Архитектура Intel® 64 <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Архитектура Intel® 64 в сочетании с соответствующим программным обеспечением поддерживает работу 64-разрядных приложений на серверах, рабочих станциях, настольных ПК и ноутбуках.¹ Архитектура Intel® 64 обеспечивает повышение производительности, за счет чего вычислительные системы могут использовать более 4 ГБ виртуальной и физической памяти.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&EM64=true">Найти продукты с Архитектура Intel® 64 <small><sup>‡</sup></small></a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-InstructionSetExtensions">
+                    <div class="close"></div>
+                    <h2>Расширения набора команд</h2>
+
+                    <p class="intro">Расширения набора команд - это дополнительные инструкции, с помощью которых можно повысить производительность при выполнении операций с несколькими объектами данных. К ним относятся SSE (Поддержка расширений SIMD) и AVX (Векторные расширения).</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-AVX512FusedMultiplyAddUnits">
+                    <div class="close"></div>
+                    <h2>Количество модулей AVX-512 FMA</h2>
+
+                    <p class="intro">Intel® Advanced Vector Extensions 512 (AVX-512), новые расширения набора команд, имеющие максимально широкие возможности векторных операций (512 бит) с использованием до 2 команд FMA (Fused Multiply Add) для повышения производительности наиболее ресурсоемких вычислительных задач.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-SpeedstepTechnology">
+                    <div class="close"></div>
+                    <h2>Усовершенствованная технология Intel SpeedStep®</h2>
+
+                    <p class="intro">Усовершенствованная технология Intel SpeedStep® позволяет обеспечить высокую производительность, а также соответствие требованиям мобильных систем к энергосбережению. Стандартная технология Intel SpeedStep® позволяет переключать уровень напряжения и частоты в зависимости от нагрузки на процессор. Усовершенствованная технология Intel SpeedStep® построена на той же архитектуре и использует такие стратегии разработки, как разделение изменений напряжения и частоты, а также распределение и восстановление тактового сигнала.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-AESTech">
+                    <div class="close"></div>
+                    <h2>Новые команды Intel® AES</h2>
+
+                    <p class="intro">Команды Intel® AES-NI (Intel® AES New Instructions) представляют собой набор команд, позволяющий быстро и безопасно обеспечить шифрование и расшифровку данных. Команды AES-NI могут применяться для решения широкого спектра криптографических задач, например, в приложениях, обеспечивающих групповое шифрование, расшифровку, аутентификацию, генерацию случайных чисел и аутентифицированное шифрование.</p>
+                        <p class="footer-link">
+                            <a class="search" href="/ru/Search/FeatureFilter?productType=processors&AESTech=true">Найти продукты с Новые команды Intel® AES</a>
+                        </p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="tt-ExecuteDisable">
+                    <div class="close"></div>
+                    <h2>Функция Бит отмены выполнения <small><sup>‡</sup></small></h2>
+
+                    <p class="intro">Бит отмены выполнения — это аппаратная функция безопасности, которая позволяет уменьшить уязвимость к вирусам и вредоносному коду, а также предотвратить выполнение вредоносного ПО и его распространение на сервере или в сети. </p>
+                </div>
+            <text></text>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-PA">
+                    <div class="close"></div>
+                    <h2>PA</h2>
+                    <p class="intro">Предварительная активность: заказы могут приниматься, но не планироваться к отправке и не поставляться.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-AC">
+                    <div class="close"></div>
+                    <h2>AC</h2>
+                    <p class="intro">Активно: эта часть активна.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-EN">
+                    <div class="close"></div>
+                    <h2>EN</h2>
+                    <p class="intro">Снято с производства: уведомление о снятии продукта с производства опубликовано.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-QR">
+                    <div class="close"></div>
+                    <h2>QR</h2>
+                    <p class="intro">Качество/надежность.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-RS">
+                    <div class="close"></div>
+                    <h2>RS</h2>
+                    <p class="intro">Изменить сроки</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-RP">
+                    <div class="close"></div>
+                    <h2>RP</h2>
+                    <p class="intro">Цена отсутствует: данная деталь больше не производится и не закупается, товарные запасы отсутствуют.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-RT">
+                    <div class="close"></div>
+                    <h2>RT</h2>
+                    <p class="intro">Отсутствует: данная деталь больше не производится и не закупается, товарные запасы отсутствуют.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-NO">
+                    <div class="close"></div>
+                    <h2>NO</h2>
+                    <p class="intro">Нет заказов с даты ввода последнего заказа: используется для продукции, производство которой прекращено. Позволяет выполнять доставку и возврат.</p>
+                </div>
+                <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-xl-offset-3 col-xl-6" id="mm-status-OB">
+                    <div class="close"></div>
+                    <h2>OB</h2>
+                    <p class="intro">Устарело: доступные запасы. В будущем доступных запасов не будет.</p>
+                </div>
+            <text></text>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    </div>
+    
+    <section class="footer-support-options no-print">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Дополнительные варианты поддержки для Процессор Intel® Core™ i9-7980XE Extreme Edition (24,75 МБ кэш-памяти, до 4,20 ГГц)</h4>
+                </div>
+            </div>
+        </div>
+        <div class="options">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 support-option"><a href="https://www.intel.ru/content/www/ru/ru/support/products/123588/processors/intel-core-processors/intel-core-x-series-processors.html"><img src="/inc/styles/img/icon-support-option-productsupport.png" />Техническая поддержка продукции</a></div>
+                    <div class="col-sm-3 support-option"><a id="support-button-dc" href="https://downloadcenter.intel.com/ru/"><img src="/inc/styles/img/icon-support-option-driversandsoftware.png" />Файлы для загрузки и ПО</a></div>
+                    <div class="col-sm-3 support-option"><a href="https://communities.intel.com/community/tech"><img src="/inc/styles/img/icon-support-option-supportcommunity.png" />Сообщество поддержки</a></div>
+                    <div class="col-sm-3 support-option"><a href="https://supporttickets.intel.com/warrantyinfo?lang=ru-RU"><img src="/inc/styles/img/icon-support-option-warrantyreplacement.png" />Гарантия и замена по гарантии</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blade blade-support-featured-content blade-featured-content solid brand-primary theme-dark-1 text-center no-print">
+        <div class="container">
+
+            <figure> <span data-picture="" data-alt=""> <span data-src="/inc/styles/img/help-icon@2x.png">  <img alt="" src="/inc/styles/img/help-icon@2x.png" width="50" height="43"></span> </span> </figure>
+            <h2>Вам нужна дополнительная помощь?</h2>
+            <div class="support-options">
+                <p><a href="https://www.intel.ru/content/www/ru/ru/support/contact-support.html">Контактная информация по технической поддержке</a></p>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="blade-support-feedback text-left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 feedback-title" data-modal="ark-feedback-form">
+                            <figure> <span data-picture="" data-alt="Alt text to be used for img"> <span data-src="/inc/styles/img/feedback-icon@2x.png">  <img alt="Alt text to be used for img" src="/inc/styles/img/feedback-icon@2x.png" width="40" height="33"></span> </span> </figure>
+                            <h2>Отправить отзыв</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blade blade-support-featured-content blade-featured-content">
+        <div class="container">
+            <div class="row disclaimer-row">
+                <div class="col-xs-12">
+                    <p>Вся предоставленная информация может быть изменена в любое время без уведомления. Корпорация Intel оставляет за собой право вносить изменения в производственный цикл, спецификации и описания продукции в любое время без уведомления. Информация в настоящем документе предоставляется &quot;как есть&quot;, и корпорация Intel не делает никаких заявлений и не дает никаких гарантий в отношении точности информации, а также качества, надежности, функциональности или совместимости перечисленных систем. Для получения дополнительной информации о конкретной продукции или системах свяжитесь с производителем.</p>
+                    <p>Классификации Intel используются только в информационных целях и состоят из номеров ECCN (Export Control Classification Number, по классификации экспортного контроля США) и номеров HTS (Harmonized Tariff Schedule, согласованная тарифная сетка США). Любое использование классификаций Intel осуществляется без обращения в корпорацию Intel и не должно толковаться как представление или гарантия в отношении правильности номера ECCN или HTS. Ваша компания, являясь импортером и/или экспортером, несет полную ответственность за правильную классификацию ваших транзакций.</p>
+                    <p>Ознакомьтесь с характеристиками и возможностями продукта, представленными в техническом описании.</p>
+                    <p>Анонсированные артикулы (SKUs) на данный момент недоступны. Обратитесь к графе «Дата выпуска» для получения информации о доступности продукции на рынке.</p>
+<p>Некоторые продукты могут поддерживать новые наборы инструкций AES с обновлением конфигурации процессоров, в частности, i7-2630QM/i7-2635QM, i7-2670QM/i7-2675QM, i5-2430M/i5-2435M, i5-2410M/i5-2415M. Свяжитесь с OEM-поставщиком для получения BIOS, включающего последнее обновление конфигурации процессора.</p>
+<p>‡ Эта функция может присутствовать не во всех вычислительных системах. Свяжитесь с поставщиком, чтобы получить информацию о поддержке этой функции вашей системой или уточнить спецификацию системы (материнской платы, процессора, набора микросхем, источника питания, жестких дисков, графического контроллера, памяти, BIOS, драйверов, монитора виртуальных машин (VMM), платформенного ПО и/или операционной системы) для проверки совместимости с этой функцией. Функциональные возможности, производительность и другие преимущества этой функции могут в значительной степени зависеть от конфигурации системы.</p>
+<p>Для получения дополнительной информации, в том числе о процессорах, поддерживающих технологию Intel® HT, посетите сайт <a href="http://www.intel.com/content/www/ru/ru/architecture-and-technology/hyper-threading/hyper-threading-technology.html?wapkw=hyper+threading">http://www.intel.com/content/www/ru/ru/architecture-and-technology/hyper-threading/hyper-threading-technology.html?wapkw=hyper+threading </a>.</p>
+<p>Максимальная тактовая частота с технологией Turbo Boost — это максимальная тактовая частота одноядерного процессора, которую можно достичь с помощью технологии Intel® Turbo Boost. Более подробную информацию можно найти по адресу <a href="http://www.intel.com/content/www/ru/ru/architecture-and-technology/turbo-boost/turbo-boost-technology.html">www.intel.com/content/www/ru/ru/architecture-and-technology/turbo-boost/turbo-boost-technology.html</a>.</p>
+<p>Рекомендуемая розничная цена (РРЦ) представляет собой рекомендуемую цену для продуктов Intel. Цены указаны для прямых клиентов Intel, обычно для заказов партий из 1000 шт. и могут быть изменены без уведомления. Налоги, расходы на доставку и прочие расходы не включены. Цены могут отличаться для других типов упаковки и объемов поставок, а также могут действовать условия специальных акций. Если продается в оптовой партии, цена относится к единице продукции. Указание рекомендуемых розничных цен не является официальной ценовой офертой Intel. Обратитесь к своему представителю Intel, чтобы получить официальное подтверждение цены.</p>
+<p>Расчетная мощность системы и максимальная расчетная мощность рассчитаны для максимально возможных показателей. Реальная расчетная мощность может быть ниже, если используются не все каналы ввода/вывода набора микросхем.</p>
+<p>Низкий уровень содержания галогенов: относится только к бромированным и хлорированным огнестойким добавкам (BFR/CFR) и ПВХ в конечном продукте. Компоненты Intel, а также приобретенные компоненты в конечной сборке соответствуют требованиям стандарта JS-709, а печатные платы/подложки соответствуют требованиям стандарта IEC 61249-2-21. Замена галогенизированных огнезащитных составов и/или ПВХ может отрицательно сказаться на окружающей среде.</p>
+<p>Для ознакомления с результатами тестов производительности см. <a href='http://www.intel.com/content/www/ru/ru/benchmarks/intel-product-performance.html'>http://www.intel.com/content/www/ru/ru/benchmarks/intel-product-performance.html.</a></p>
+<p>Номера процессоров Intel® не служат мерой измерения производительности. Номера процессоров указывают на различия характеристик процессоров в пределах семейства, а не на различия между семействами процессоров. Дополнительную информацию смотрите на сайте <a href="http://www.intel.com/content/www/ru/ru/processors/processor-numbers.html">http://www.intel.com/content/www/ru/ru/processors/processor-numbers.html</a>.</p>
+<p>Для процессоров с поддержкой 64-разрядных архитектур Intel® требуется поддержка технологии Intel® 64 в BIOS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container support-modal-container no-print">
+        <div class="row">
+            <div class="support-modal col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-xl-offset-4 col-xl-4" id="ark-feedback-form">
+                <div class="close"></div>
+                <h2>Отправить отзыв</h2>
+                <!-- Copy -->
+                <p class="intro">Мы хотим сделать средства ARK полезным источником информации для вас. Оставьте свои вопросы, комментарии или предложения здесь. Вы получите ответ в течение 2 рабочих дней.</p>
+                <!-- Form Elements -->
+                <form class="pre-submit">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <p>Была ли информация на данном сайте полезной для вас?</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="has-switch-input">
+                                <input type="radio" id="useful-information-yes" name="onYesNo" value="1">
+                                <span class="radio-button"></span>
+                                <span class="switch-input-content">Да</span>
+                            </label>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="has-switch-input">
+                                <input type="radio" id="useful-information-no" name="onYesNo" value="2">
+                                <span class="radio-button"></span>
+                                <!-- ADD STYLE: TEXT-TRANSFORM UPPERCASE -->
+                                <span class="switch-input-content">Нет</span>
+                            </label>
+                        </div>
+                    </div>
+                    <input maxlength="50" type="text" name="firstname" required="required" placeholder="Название" id="feedback-name">
+                    <input maxlength="50" type="email" name="email" required="required" placeholder="Адрес электронной почты" id="feedback-email">
+                    <textarea name="comments" placeholder="Комментарии" id="feedback-comment"></textarea>
+                    
+                    <input name="curiosity" id="curiosity" class="voigt-kampff" autocomplete="off" />
+                    <div class="btn-row clearfix">
+                        <button class="btn btn-primary btn-no-shadow btn-submit" type="submit" id="useful-information-submit" data-wap_type="feedback" data-wap_ref="NA">
+                            Отправить ›
+                        </button>
+                        <button class="btn btn-primary btn-no-shadow btn-cancel" type="button">
+                            Отмена
+                        </button>
+                    </div>
+                </form>
+                <form class="on-feedback-form" style="display:none;" action="https://onsite2.researchintel.com/survey/16JT051/httppost/feedback.asp">
+                    <input type="hidden" name="onLang" id="on-lang-marker" value="ru-RU" />
+                    <input type="hidden" name="onCUrl" value="https://ark.intel.com/ru/products/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24_75M-Cache-up-to-4_20-GHz" />
+                    <input type="hidden" name="onYesNo" />
+                    <input type="hidden" name="onComment" />
+                </form>
+
+                <!-- Disclaimer Copy at bottom -->
+                <p class="post-submit" style="display: none;">Ваши комментарии отправлены. Благодарим за информацию.</p>
+                <p class="footnote">Ваши персональные данные будут использоваться только в целях данного опроса. Ваше имя и адрес электронной почты не будут добавлены ни в один список рассылки, и вы не получите электронных сообщений от корпорации Intel, если только не сделаете специальный запрос. Нажатие &#39;Отправить&#39; подтверждает ваше согласие с Условиями использования и понимание Политики Intel в отношении конфиденциальности данных.</p>
+            </div>
+        </div>
+    </div>
+
+
+<!--IGHF footer--> 
+<!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {}; INTELNAV.renderSettingsFooter={version:"2.0 - 09/11/2017 08:00:00",OutputId:"gf_default"};
+/*]]>*/</script> 
+<noscript><div id="smallfootprint-footer"><ul><li>©Intel Corporation</li><li><a href="https://www.intel.ru/content/www/ru/ru/legal/terms-of-use.html" target="">Условия использования</a></li><li><a href="https://www.intel.ru/content/www/ru/ru/legal/trademarks.html" target="">*Торговые марки</a></li><li><a href="https://www.intel.ru/content/www/ru/ru/privacy/intel-privacy-notice.html" target="">Конфиденциальность</a></li><li><a href="https://www.intel.ru/content/www/ru/ru/privacy/intel-cookie-notice.html" target="">Файлы Cookies</a></li><li><a href="https://www.intel.ru/content/www/ru/ru/policy/policy-human-trafficking-and-slavery.html" target="">Прозрачность цепочки поставок </a></li><li><a href="https://www.intel.ru/content/www/ru/ru/siteindex.html" target="">Карта сайта</a></li></ul></div></noscript>
+<div id="recode50footer"></div>
+<!--/IGHF footer-->
+    <script src="/inc/javascript/jquery.sticky.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/javascript/cookie.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/javascript/jquery.tablesorter.js?v=1.1.6659.18847" type="text/javascript"></script>
+    
+    
+    <script src="/inc/typescript/ark-common.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/typescript/ark-products-table.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/typescript/ark-compare.js?v=1.1.6659.18847" type="text/javascript"></script>
+    <script src="/inc/typescript/ark-feedback-form.js?v=1.1.6659.18847" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            var compareQ = new CompareQ();
+            var feedbackForm = new FeedbackForm($('.feedback-title').get(0));
+            $('.blade-support.breadcrumb').sticky({ topSpacing: ($("#recode50header").height() || 0) });
+            $("#ark-searchbox").bindSearch();
+
+            //Set up event on tooltip windows.
+            $('body').on('click', '.container .view-modal', function (e) {
+                e.stopImmediatePropagation();
+                var modal = new Modal(this);
+                modal.openModal();
+            });
+        });
+    </script>
+    
+    
+    <script type="text/javascript">
+        var getShopLink = function () {};
+        var getGameplayLink = function () {};
+        var getDownloadLink = function () {
+            $.getJSON("https://downloadcenter.intel.com/ru//json/pageresults?pageNumber=1&productId=" + 126699 + "&keyword=&filterOS=&filterType=").done(function (dcPayload) {
+                if (dcPayload && dcPayload.ResultsForDisplay && dcPayload.ResultsForDisplay.length > 0) {
+                    $("#support-button-dc").attr("href", "https://downloadcenter.intel.com/ru/product/126699/Intel-Core-i9-7980XE-Extreme-Edition-Processor-24-75M-Cache-up-to-4-20-GHz-")
+                    addResults(dcPayload.ResultsForDisplay, $("#drivers-list tbody"));
+                    $("#tab-blade-1-7, #tab-side-1-7, #tab-label-1-7").removeAttr("style");
+                }
+            });
+        };
+
+        function addResults(results, $resultTable) {
+            var downloadUrl = "https://downloadcenter.intel.com/ru/" + "download/";
+            var $rowTemplate = $('<tr style="display: none;">' +
+                '<td class="description">' +
+                    '<a class="template-link-download"></a>' +
+                    '<p class="template-description"></p>' +
+                '</td>' +
+                '<td class="collapsible-col collapsible3 type template-type"></td>' +
+                '<td class="collapsible-col collapsible2 os template-os"></td>' +
+                '<td class="collapsible-col collapsible1 version"><span class="template-version"></span><br /><span class="type template-version-status"></span></td>' +
+                '<td class="collapsible-col collapsible4 date template-date"></td>' +
+            '</tr>');
+
+            $.map(results, function (result) {
+                $thisRow = $rowTemplate.clone();
+                $thisRow.find("a.template-link-download").attr("href", downloadUrl + result.Id + "/" + /* result.Title.urlifyName() + */ "?product=" + 126699);
+                $thisRow.find("a.template-link-download").text(result.Title);
+                $thisRow.find(".template-description").html(result.SummaryDescription);
+                $thisRow.find(".template-os").html(result.OperatingSystemSet.join("<br />"));
+                $thisRow.find(".template-date").text(result.PublishDate);
+                $thisRow.find(".template-version").text(result.Version);
+                $thisRow.find(".template-version-status").text(result.VersionStatus);
+                $thisRow.find(".template-type").text(result.DownloadType);
+                $thisRow.data("title", result.Title);
+                $thisRow.data("version", result.Version);
+                $thisRow.data("id", result.Id);
+                $thisRow.appendTo($resultTable);
+                $thisRow.fadeIn('slow');
+            });
+        }
+
+
+        var setPanel = function (useFilter) {
+            useFilter = useFilter.replace(/\W/g, "").toLowerCase();
+
+            var $foundTarget = $('.tab-pane[data-hash="' + useFilter + '"]');
+            if ($foundTarget.length === 1) {
+                var tabId = $foundTarget.attr("id");
+                // tab bar
+                $('ul[role="tablist"] li').removeClass('active');
+                $('a[href="#' + tabId + '"]').parents('li').addClass('active');
+                // Headlines
+                var $headlinebar = $foundTarget.children(".intel-element-toggler").first();
+                $headlinebar.toggleClass('intel-element-toggler-active');
+                $headlinebar.toggleClass('intel-element-toggler-inactive');
+                $headlinebar.next().slideToggle();
+                //show content
+                $('.tab-pane').hide();
+                $foundTarget.show().addClass('active');
+            }
+        }
+
+        var breadcrumbHeight = $('.breadcrumb').height();
+        var headerHeight = $("#recode50header").height() || 0;
+
+        function checkNavSize() {
+            $("ul.specs-nav").css({ "max-width" : $("#nav-shim").width() });
+
+            var breadcrumbHeight = $('.breadcrumb').height();
+            var headerHeight = $("#recode50header").height() || 0;
+            var maxNavHeight = $(window).height() - headerHeight - breadcrumbHeight;
+
+            if ($('.specs-nav').outerHeight(true) + 7 > maxNavHeight) {
+                $('.specs-nav').addClass('max-nav').css('max-height', maxNavHeight - 10);
+            } else {
+                $('.specs-nav').removeClass('max-nav').css('max-height', 'none');
+            }
+            $('.specs-nav').affix('checkPosition');
+        }
+
+        $(document).ready(function () {
+            getShopLink();
+            getGameplayLink();
+            getDownloadLink();
+            if (document.location.hash) { setPanel(document.location.hash); }
+
+            // Navigation setup
+            $('body').scrollspy({
+                target: '.specs-nav-container',
+                offset: 180
+            });
+            $('.specs-nav').affix({
+                offset: {
+                    top: function () { return (this.top = $('.specs-nav').offset().top - ($('.breadcrumb').height() + ($("#recode50header").height() || 0))); },
+                    bottom: function () { return (this.bottom = $(document).height() - ($('.footer-support-options').offset().top - 235)); }
+                }
+            });
+
+            setTimeout(function() { checkNavSize(); }, 25); //delay(function () { checkNavSize(); }, 25);
+
+        });
+
+        if ($('.specs-nav').length > 0) {
+            $(window).resize(function () {
+                if (this.resizeTO) clearTimeout(this.resizeTO);
+                this.resizeTO = setTimeout(function () { checkNavSize(); }, 500);
+            });
+
+            $('.spec-section-title').click(function (e) {
+                e.preventDefault();
+                var sectionAnchor = $(this).attr('href');
+                var thisNavSection = $(this).parent('.specs-nav-section');
+
+                $('.specs-section, .specs-nav-section').removeClass('active');
+                $('.specs-nav-section').removeClass('always-active');
+                $(sectionAnchor).addClass('active');
+                $(thisNavSection).addClass('always-active');
+                $('html,body').animate({ scrollTop: 0 }, 200);
+            });
+
+            $('.specs-nav-section ul li a').click(function (e) {
+                e.preventDefault();
+                var offsetPosition = $(".product-family-title").height() + $("#recode50header").height();
+                var sectionAnchor = $(this).attr('href');
+                var sectionAnchorPosition = $(sectionAnchor).position().top;
+
+                $('html,body').animate({ scrollTop: sectionAnchorPosition + offsetPosition }, 500);
+            });
+
+            //accordion
+            $('.specs-accordion-title').click(function () {
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active').next().hide();
+                } else {
+                    $('.specs-accordion-title').removeClass('active').next().hide();
+                    $('.specs-accordion-title').next().hide();
+                    $(this).addClass('active').next().show();
+                }
+            });
+
+        }
+    </script>
+
+
+        <script type="text/javascript">
+            getShopLink = function () {
+                var locales = {"RU": 1049, "MD": 2073 };
+                var myLocale = locales[cookie("src_countrycode")]; 
+                if (myLocale != undefined) {
+                    $.get("https://shop-media.intel.com/api/v2/ProductService/FlagProductBySpec?locale=" + myLocale + "&q=i9-7980XE&apikey=YNn44iWqoECJnS5EdAwPoA==", function (d) { 
+                        $data = $(d);
+                        var hits = $data.find("Count").text();
+                        if (hits > 0) {
+                            $("a.btn-shop-for-product").attr("href", $data.find("Url").text() + "&cid=IntelARK");
+                            $(".btn-shop-for-product").show();
+                        }
+                    },
+                    "xml");
+                }
+            };
+        </script>
+    <text></text>
+
+
+
+
+
+    <script type="text/javascript">
+        function trackArkClickEvent(area, data) { /* Stub from wap-ark.js */ };
+    </script>
+    
+        <script type="text/javascript">
+            (function (ARK) { // OBSOLETE.
+                ARK.WAPSetting = {
+                    custom01: "",
+                    custom02: (window.location.href.toLowerCase().indexOf('?q=') != -1) ? window.location.href.split("?")[1] : '', 
+                    custom03: "",
+                    custom04: "Products : View", 
+                    custom05: (window.location.pathname.toLowerCase().indexOf('compare/') != -1) ? document.location.href.substring(document.location.href.lastIndexOf("/") + 1) : '', 
+                    custom06: window.location.pathname.toLowerCase().indexOf('products') != -1 ? 'product: ' + $('#productId').text() : '', 
+                    custom07: (window.location.pathname.toLowerCase().indexOf('search/advanced') != -1) ? window.location.href.split("?")[1] : '', 
+                    custom08: "",
+                    custom09: "",
+                    custom10: ""
+                };
+            }(typeof ARK === "object" && ARK || this));
+
+            var wapLocalCode = 'ru-ru'; //dynamically set per localized site, consistent with DC
+            var translateBeacon = 0;
+            $("body").on("DOMSubtreeModified", "#goog-gt-tt", function (e) {
+                if (translateBeacon == 0) { trackArkClickEvent("google-translate", window.location.pathname.toLowerCase()); }
+                translateBeacon++;
+            });
+        </script>
+        <script type="text/javascript" src="https://www.intel.com/content/dam/www/global/wap/wap-ark.js"></script>
+    </body>
+
+</html>
