@@ -13,6 +13,7 @@ from .models.memory.memory import Memory
 from .models.memory.memory_type import MemoryType
 from .models.hardware import Vendor
 from .models.power_block.power_block import PowerBlock
+from .models.pc_set import PCSet
 
 
 class ChipsetAdmin(admin.ModelAdmin):
@@ -50,15 +51,20 @@ class SocketAdmin(admin.ModelAdmin):
 
 from .models.hardware import Hardware
 
+
 class HardwareAdmin(admin.ModelAdmin):
     pass
+
 
 class PowerBlockAdmin(admin.ModelAdmin):
     pass
 
+
+class PCSetAdmin(admin.ModelAdmin):
+    pass
+
+
 admin.site.register(Hardware, HardwareAdmin)
-
-
 admin.site.register(CPU, CPUAdmin)
 admin.site.register(Architecture, ArchitectureAdmin)
 admin.site.register(CodeName, CodeNameAdmin)
@@ -72,6 +78,8 @@ admin.site.register(Memory, MemoryAdmin)
 admin.site.register(Vendor, VendorAdmin)
 
 admin.site.register(PowerBlock, PowerBlockAdmin)
+
+admin.site.register(PCSet, PCSetAdmin)
 
 
 

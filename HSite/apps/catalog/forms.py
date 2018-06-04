@@ -6,6 +6,28 @@ from .models.memory.memory import Memory
 from .models.power_block.power_block import PowerBlock
 
 
+def model_valid(Model):
+    def func(func):
+        def wrapper(model_id, *args):
+            if Model.objects.filter(id=model_id).exists():
+                return func(model_id, *args)
+            else:
+                return False
+        return wrapper
+    return func
+
+
+def vendor_valid(Model):
+    def func(func):
+        def wrapper(model_id, vendor_id, *args):
+            if Model.objects.filter(id=model_id, vendor_id=vendor_id).exists():
+                return func(model_id, vendor_id, *args)
+            else:
+                return False
+        return wrapper
+    return func
+
+
 class CPUForm(forms.ModelForm):
     class Meta:
         model = CPU
@@ -17,6 +39,17 @@ class CPUForm(forms.ModelForm):
         self.fields['architecture'].widget.attrs.update({'id': 'id_cpu_architecture'})
         self.fields['model'] = forms.ChoiceField()
         self.fields['model'].widget.attrs.update({'id': 'id_cpu_model'})
+
+    def is_valid(self):
+        @model_valid(CPU)
+        @vendor_valid(CPU)
+        def architecture_valid(model_id, vendor_id, architecture_id):
+            return CPU.objects.filter(id=model_id, architecture_id=architecture_id).exists()
+        validity = architecture_valid(self.data['model'], self.data['vendor'], self.data['architecture'])
+        return validity
+
+    def clean(self):
+        cpu_architecture = self.data.get('cpu_architecture')
 
 
 class MotherboardForm(forms.ModelForm):
@@ -33,6 +66,14 @@ class MotherboardForm(forms.ModelForm):
         self.fields['model'] = forms.ChoiceField()
         self.fields['model'].widget.attrs.update({'id': 'id_motherboard_model'})
 
+    def is_valid(self):
+        @model_valid(Motherboard)
+        @vendor_valid(Motherboard)
+        def chipset_valid(model_id, vendor_id, chipset_id):
+            return Motherboard.objects.filter(id=model_id, chipset_id=chipset_id).exists()
+        validity = chipset_valid(self.data['model'], self.data['vendor'], self.data['chipset'])
+        return validity
+
 
 class PowerBlockForm(forms.ModelForm):
     class Meta:
@@ -41,11 +82,15 @@ class PowerBlockForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        # self.fields['power_capacity'] = forms.ChoiceField()
-        # self
-        # self.fields['vendor'] = forms.ChoiceField()
         self.fields['model'] = forms.ChoiceField()
         self.fields['model'].widget.attrs.update({'id': 'id_pb_model'})
+
+    def is_valid(self):
+        @model_valid(PowerBlock)
+        def true(model):
+            return True
+        validity = true(self.data['model'])
+        return validity
 
 
 class MemoryForm(forms.ModelForm):
@@ -62,3 +107,10 @@ class MemoryForm(forms.ModelForm):
         self.fields['model'] = forms.ChoiceField()
         self.fields['model'].widget.attrs.update({'id': 'id_memory_model'})
 
+    def is_valid(self):
+        @model_valid(Memory)
+        @vendor_valid(Memory)
+        def volume_valid(model_id, vendor_id, volume):
+            return Memory.objects.filter(id=model_id, volume=volume).exists()
+        validity = volume_valid(self.data['model'], self.data['vendor'], self.data['volume'])
+        return validity

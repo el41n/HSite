@@ -27,15 +27,16 @@ class CPU(Hardware):
         try:
             models.Model.save(self)
         except IntegrityError:
-            old_data = CPU.objects.get(model=self.model)
-            old_data.status = self.status
-            old_data.date = self.date
-            old_data.cores = self.cores
-            old_data.max_clock_speed = self.max_clock_speed
-            old_data.clock_speed = self.clock_speed
-            old_data.cache = self.cache
-            old_data.price = self.price
-            old_data.socket = self.socket
-            old_data.architecture = self.architecture
-            old_data.save()
+            # old_data = CPU.objects.get(model=self.model)
+            # old_data.status = self.status
+            # old_data.date = self.date
+            # old_data.cores = self.cores
+            # old_data.max_clock_speed = self.max_clock_speed
+            # old_data.clock_speed = self.clock_speed
+            # old_data.cache = self.cache
+            # old_data.price = self.price
+            # old_data.socket = self.socket
+            # old_data.architecture = self.architecture
+            # old_data.save()
+            pass
 

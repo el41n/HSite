@@ -5,11 +5,15 @@ from .views import MotherboardView
 
 urlpatterns = (
     path('', views.index, name='index'),
-    path('Catalog/', views.main, name='processor_list'),
+    path('Catalog/', views.main, name='main'),
     path('Catalog/ProcessorList/', views.ProcessorList.as_view(), name='processor_list'),
     path('Catalog/MotherboardList/', views.MotherboardView.as_view(), name='motherboard_list'),
     path('Catalog/MemoryList/', views.MemoryView.as_view(), name='memory_list'),
     path('Catalog/PowerList/', views.PowerView.as_view(), name='power_list'),
+    path('Catalog/BuildList/', views.PCSetView.as_view(), name = 'build_list'),
+
+    path('Catalog/Build/Save', views.save_pc_form,
+         name='save_cpu'),
 
     # path('Catalog/MemoryList/', views.processor_list, name='memory_list'),
     # path('Catalog/PowerBlockList/', views.processor_list, name='power_block_list'),

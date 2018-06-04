@@ -9,17 +9,21 @@ from .models.memory.memory import Memory
 from .models.hardware import Hardware, Vendor
 from .models.motherboard.chipset import Chipset
 from .models.power_block.power_block import PowerBlock
+from .models.pc_set import PCSet
 
+from .forms import CPUForm
 from django.views.generic import ListView
+from django.forms import formset_factory
 from .models.motherboard.motherboard import Motherboard
+from .models.pc_set import PCSet
 
+from .models.parser.parser import Parser
 import pdb
 # Create your views here.
 
 
 def index(request):
-    a = Architecture.objects.filter(id=2).values_list('id', flat=True)
-    print(a[0])
+    p = Parser("https://komp.1k.by", "https://komp.1k.by/utility-cpu/")
     return HttpResponse('ok')
 
 
@@ -30,6 +34,24 @@ def main(request):
     power = PowerBlock.objects.count()
     return render(request, 'main_page.html', context={'cpu': cpu, 'motherboard': motherboard, 'ram': ram,
                                                       'power': power})
+
+
+def save_pc_form(request):
+    if request.method == 'POST':
+        models = request.POST.getlist('model')
+        vendors = request.POST.getlist('vendor')
+        cpu_date = {'model': models[0], 'architecture': request.POST.get('architecture'), 'vendor': vendors[0]}
+        motherboard_date = {'model': models[1], 'vendor': vendors[1], 'chipset': request.POST.get('chipset')}
+        memory_date = {'model': models[2], 'vendor': vendors[2], 'volume': request.POST.get('volume')}
+        power_date = {'model': models[3]}
+        cpu_form = CPUForm(cpu_date)
+        moth_form = MotherboardForm(motherboard_date)
+        memory_form = MemoryForm(memory_date)
+        power_form = PowerBlockForm(power_date)
+        if cpu_form.is_valid() and moth_form.is_valid() and memory_form.is_valid() and power_form.is_valid():
+            pc_set = PCSet(cpu_id=models[0], motherboard_id=models[1], memory_id=models[2], power_id=models[3])
+            return HttpResponse(pc_set.save())
+        return HttpResponse("Error")
 
 
 def load(function):
@@ -155,3 +177,8 @@ class MemoryView(ListView):
 class PowerView(ListView):
     model = PowerBlock
     template_name = 'power_list.html'
+
+
+class PCSetView(ListView):
+    model = PCSet
+    template_name = 'set_list.html'
