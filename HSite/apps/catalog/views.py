@@ -1,25 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import CreateView
 from .models.cpu.cpu import CPU
 from .models.cpu.architecture import Architecture
-from .models.parser.intel_parser import IntelParser
-from .forms import CPUForm, MotherboardForm, MemoryForm, PowerBlockForm
+from .forms import MotherboardForm, MemoryForm, PowerBlockForm
 from .models.memory.memory import Memory
-from .models.hardware import Hardware, Vendor
+from .models.hardware import Vendor
 from .models.motherboard.chipset import Chipset
 from .models.power_block.power_block import PowerBlock
-from .models.pc_set import PCSet
-
 from .forms import CPUForm
 from django.views.generic import ListView
-from django.forms import formset_factory
 from .models.motherboard.motherboard import Motherboard
 from .models.pc_set import PCSet
-
 from .models.parser.parser import Parser
-import pdb
-# Create your views here.
 
 
 def index(request):
@@ -50,20 +42,14 @@ def save_pc_form(request):
         power_form = PowerBlockForm(power_date)
         if cpu_form.is_valid() and moth_form.is_valid() and memory_form.is_valid() and power_form.is_valid():
             pc_set = PCSet(cpu_id=models[0], motherboard_id=models[1], memory_id=models[2], power_id=models[3])
-            return HttpResponse(pc_set.save())
+            response = pc_set.save()
+            return render(request, 'form_response.html', {'response': response})
         return HttpResponse("Error")
-
-
-def load(function):
-    def wrapper(request):
-        info = request.GET.get('vendor')
-        return function(request, info)
-    return wrapper
 
 
 def load_architectures(request):
     vendor_id = request.GET.get('vendor')
-    architecture = Architecture.objects.all().filter(cpu__vendor=vendor_id)
+    architecture = Architecture.objects.filter(cpu__vendor=vendor_id)
     architecture = set(architecture)
     return render(request, 'dropdown_architecture_list_options.html', {'architectures': architecture})
 
@@ -96,18 +82,11 @@ def load_motherboard_models(request):
     models = Motherboard.objects.filter(vendor=vendor, chipset_id=chipset_id).order_by('model')
     return render(request, 'dropdown_model.html', {'models': models})
 
-# def processor_list(request):
-#     a = IntelArchitecture.objects.all().values_list('architecture', flat=True)
-#     str = 'Ivy Bridge'
-#     b = list(filter(lambda x: x == str, a))
-#     ivy = IntelArchitecture.objects.get(architecture=b[0]).id
-#     cp = IntelCPU.objects.all()
-#     return render(request, 'processor_list.html', context={'processors': cp})
 
-@load
-def load_memory_volume(request, info):
+def load_memory_volume(request):
+    info = request.GET.get('vendor')
     mem_type = Motherboard.objects.get(pk=info).memory_type
-    volumes = Memory.objects.filter(type=mem_type)
+    volumes = set(Memory.objects.filter(type=mem_type).values_list('volume', flat=True))
     return render(request, 'dropdown_memory_volume.html', {'memories': volumes})
 
 
@@ -128,12 +107,6 @@ def load_memory_models(request):
     volume = request.GET.get('volume')
     models = Memory.objects.filter(volume=volume, vendor=vendor, type=type)
     return render(request, 'dropdown_model.html', {'models': models})
-
-# def load_power_capacity(request):
-#     pass
-#
-# # def load_power_vendors(request):
-# #     pass
 
 
 def load_power_models(request):
@@ -182,3 +155,4 @@ class PowerView(ListView):
 class PCSetView(ListView):
     model = PCSet
     template_name = 'set_list.html'
+

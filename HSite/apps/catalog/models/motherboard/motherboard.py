@@ -17,4 +17,4 @@ class Motherboard(Hardware):
         try:
             models.Model.save(self)
         except IntegrityError:
-            pass
+            Motherboard.objects.filter(pf=self.pk).update(price=self.price)

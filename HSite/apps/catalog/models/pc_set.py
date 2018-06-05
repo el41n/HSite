@@ -41,7 +41,24 @@ class PCSet(models.Model):
     memory = models.ForeignKey(Memory, on_delete=models.CASCADE, default=None, null=True)
     power = models.ForeignKey(PowerBlock, on_delete=models.CASCADE, default=None, null=True)
 
+    @property
+    def price(self):
+        return self.cpu.price + self.motherboard.price + self.memory.price + self.power.price
+
+    @property
+    def power_usage(self):
+        return self.power.power_capacity
+
+    def set(self):
+        return [("Процессор: ", self.cpu),
+                ("Материнская плата: ", self.motherboard,
+                 "Оперативная память: ", self.memory,
+                 "Блок питания: ", self.power)]
+
     objects = PCSetManager()
+
+    def __str__(self):
+        return "{} {} + {}".format(self.cpu.vendor, self.cpu.codename, self.motherboard.chipset)
 
     def save(self, force_insert=False, force_update=False, using=None,
              update_fields=None):

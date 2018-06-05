@@ -4,6 +4,7 @@ from .models.cpu.cpu import CPU
 from .models.motherboard.motherboard import Motherboard
 from .models.memory.memory import Memory
 from .models.power_block.power_block import PowerBlock
+from .models.hardware import Vendor
 
 
 def model_valid(Model):
@@ -35,6 +36,9 @@ class CPUForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        vend_id = set(CPU.objects.values_list('vendor_id', flat=True))
+        choice = ((i, Vendor.objects.get(pk=i).vendor) for i in vend_id)
+        self.fields['vendor'] = forms.ChoiceField(choices=choice)
         self.fields['architecture'] = forms.ChoiceField()
         self.fields['architecture'].widget.attrs.update({'id': 'id_cpu_architecture'})
         self.fields['model'] = forms.ChoiceField()
